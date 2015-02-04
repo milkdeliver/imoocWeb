@@ -1,5 +1,5 @@
 * {
-  font-size: 14px;
+  font-size: 12px;
   padding: 0;
   margin: 0;
 }
@@ -9,15 +9,17 @@
   margin:0px auto; 
 }
 
+
 .main{
-  height:1000px;
   margin-top: 5px;
+  width: 1000px;
+  height: 250px;
   background: #FFF;
 }
 
 .news{
   height:250px;
-  width:340px;
+  width:338px;
   display: inline;
   border:1px solid #E8E8E8;
 }
@@ -63,30 +65,28 @@
   margin: 0 5px;
 }
 
-.pic_new a{
+.pic_new a, .product_list a{
   color: #C00;
   text-decoration: none;
 }
 
 
 .products {
-  background: green;
   height: 250px;
-  width: 410px;
+  width: 408px;
   border: 1px solid #E8E8E8;
 }
 
 .sidebar {
-  background: yellow;
   height: 250px;
-  width: 230px;
-  border: 1px solid #E8E8E8;
+  width: 228px;
 }
 
 .news, .products, .sidebar{
   float:left;
   height: 250px;
-  border: 1px solid #E8E8E8;
+  margin: 0 2px;
+  /* border: 1px solid #E8E8E8; */
   display: inline;
 }
 
@@ -113,8 +113,74 @@
   color: #000;
 }
 
-.new-list a:hover {
+.new-list a:hover, .new_list a:active {
   color: #F00;  
+  text-decoration: none;
 }
 
+.product_list {
+  margin-top: 10px;
+  height: 120px;
+  line-height: 22px;
 
+}
+
+.product_list img{
+  margin: 0 5px;
+  float: left;
+}
+
+.product_type{
+  height: 37px;
+  width: 372px;
+  background: url(images/product_type_bg.jpg) no-repeat;
+  margin: 20px auto;
+  text-align: center;
+  vertical-align: center;
+}
+
+.product_type li{
+  padding: 17px;
+  display: inline;
+  line-height: 27px;
+  text-align: center;
+}
+
+.video{
+  height: 185px;
+  border: 1px solid #E8E8E8;
+}
+
+.video_center{
+  margin: 2px;
+}
+
+.side_ad{
+  border: 1px solid #E8E8E8;
+  margin-top: 4px;
+}
+
+.copyright{
+  width: 100%
+  height: 200px;
+  background: #E8E8E8;
+  margin-top: 10px;
+}
+
+.copyright_content {
+  width: 1000px;
+  height: 180px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.copyright_content li{
+  list-style-type: none;
+  width: 200px;
+  float: left;
+  background: url(images/line.png) no-repeat right center;
+  text-align: center;
+  line-height: 25px;
+  font-size: 18px;
+  color: #999;
+}
